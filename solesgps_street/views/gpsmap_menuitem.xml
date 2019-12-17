@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem name="GPS" id="solesgps_map.menu_root" groups="solesgps_map.gpsmap_group_user" web_icon="fleet,static/description/icon.png"/>
+
+    <menuitem name="Geolocation" parent="solesgps_map.menu_root" id="solesgps_map.fleet_vehicles" sequence="2" groups="solesgps_map.gpsmap_group_user"/>
+        
+    <record id="action_gpsmap_street" model="ir.actions.client">
+        <field name="name">Geolocation</field>
+        <field name="tag">gpsmap.streetonline</field>
+    </record>
+    <menuitem id="solesgps_map.menu_gpsmap_streetonline" sequence="2" name="Online Street"  parent="solesgps_map.solesgps_map_geolocation" action="action_gpsmap_street" groups="solesgps_map.gpsmap_group_user"/>    
+
+
+</odoo>
