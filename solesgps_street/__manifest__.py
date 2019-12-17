@@ -2,10 +2,13 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name' : 'SolesGPS Street',
+    'price' : 195,
+    'currency' : 'EUR',
+    'images': ['static/description/street_online.png'],    
     'author': "SolesGPS :: Eduardo Vizcaino",
     'category': 'fleet, GPS, Geolocation',
     'website' : 'https://solesgps.com',
-    'summary' : 'GPS Street Online',
+    'summary' : 'Locate the satellite coordinates that your GPS devices throw. Save that information here and see it on the street view.',
     'description' : """
 Vehicle, leasing, insurances, cost
 ==================================
@@ -27,8 +30,6 @@ Main Features
         'solesgps_map',
     ],
     'data': [
-#        'security/fleet_security.xml',
-#        'security/ir.model.access.csv',
         'views/gpsmap_menuitem.xml',
         'views/gpsmap_views.xml',
     ],
