@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name' : 'SolesGPS Street',
-    'price' : 195,
+    'price' :'195.0',
     'currency' : 'EUR',
     'images': ['static/description/street_online.png'],    
     'author': "SolesGPS :: Eduardo Vizcaino",
