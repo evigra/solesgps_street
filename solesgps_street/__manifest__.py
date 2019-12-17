@@ -6,7 +6,7 @@
     'currency' : 'EUR',
     'images': ['static/description/street_online.png'],    
     'author': "SolesGPS :: Eduardo Vizcaino",
-    'category': 'fleet, GPS, Geolocation',
+    'category': 'fleet, GPS, Geolocation, Street Map',
     'website' : 'https://solesgps.com',
     'summary' : 'Locate the satellite coordinates that your GPS devices throw. Save that information here and see it on the street view.',
     'description' : """
